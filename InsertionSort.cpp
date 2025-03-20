@@ -36,7 +36,7 @@ void InsertionSort(){
         J = i -1;
 
         while (J >= 0 && arr[J] > temp){
-            
+            arr[J + 1] = arr[J];
         }
     }
 }
