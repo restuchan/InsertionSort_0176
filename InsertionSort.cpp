@@ -29,4 +29,5 @@ void input (){
 
 void InsertionSort(){
     int temp;
+    int J, i;
 }
