@@ -33,5 +33,6 @@ void InsertionSort(){
 
     for (i = 1; i <= n - 1; i++){
         temp = arr[i];
+        J = i -1;
     }
 }
