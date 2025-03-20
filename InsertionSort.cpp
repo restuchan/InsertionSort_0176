@@ -33,7 +33,7 @@ void InsertionSort(){
 
     for (i = 1; i <= n - 1; i++){
         temp = arr[i];
-        J = i -1;
+        J = i - 1;
 
         while (J >= 0 && arr[J] > temp){
             arr[J + 1] = arr[J];
@@ -45,7 +45,7 @@ void InsertionSort(){
 
 void display(){
     cout << endl;
-    cout << "=================================" endl;
+    cout << "=================================" << endl;
     cout << "Total Pass = " << n - 1 << endl;
     cout << "Element Array yang telah tersusun" << endl;
     cout << "=================================" << endl;
@@ -53,4 +53,14 @@ void display(){
     for (int J = 0; J < n; J++){
         cout << arr[J] << endl;
     }
+
+    cout << endl;
+}
+
+int main (){
+    input();
+    InsertionSort();
+    display();
+    system("Pause");
+    return 0;
 }
