@@ -49,5 +49,8 @@ void display(){
     cout << "Total Pass = " << n - 1 << endl;
     cout << "Element Array yang telah tersusun" << endl;
     cout << "=================================" << endl;
-    
+
+    for (int J = 0; J < n; J++){
+        cout << arr[J] << endl;
+    }
 }
