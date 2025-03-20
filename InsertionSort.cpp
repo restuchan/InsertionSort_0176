@@ -39,5 +39,6 @@ void InsertionSort(){
             arr[J + 1] = arr[J];
             J--;
         }
+        arr[J + 1] = temp;
     }
 }
