@@ -30,4 +30,6 @@ void input (){
 void InsertionSort(){
     int temp;
     int J, i;
+
+    for (i = 1; i <= n - 1; i++)
 }
