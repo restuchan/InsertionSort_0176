@@ -28,5 +28,5 @@ void input (){
 }
 
 void InsertionSort(){
-
+    int temp;
 }
