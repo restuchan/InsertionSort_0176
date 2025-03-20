@@ -34,5 +34,9 @@ void InsertionSort(){
     for (i = 1; i <= n - 1; i++){
         temp = arr[i];
         J = i -1;
+
+        while (J >= 0 && arr[J] > temp){
+            
+        }
     }
 }
